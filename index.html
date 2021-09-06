@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="css/font-all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
 
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+
     <!--custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -22,6 +27,72 @@
   </head>
   <body>
     
+    <!-- ============ navigation section start here ============-->
+
+        <section class="navigation py-2">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><span class="fw-bolder fs-2 logo">eNno</span></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <button class="btn header-button btn-outline-primary" type="submit">Get Started</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </section>
+
+    <!-- ============ navigation section end here ============-->
+
+    <!-- ============ header section start here ============-->
+
+        <section class="header py-3" id="home">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-md-7 d-flex align-items-center">
+                        <div>
+                            <h1 class="fw-bolder hero-h1 display-5">Elegant and creative solutions</h1>
+                            <h2 class="hero-h2 ">We are team of talented designers making websites <br> with Bootstrap</h2>
+                            <button class="btn btn-outline-primary hero-button">Get Started</button>
+                            <button class="btn btn-primary hero-button2"><i class="fab fa-youtube watch-btn"></i>Watch Video</button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order-first order-md-last">
+                        <img src="img/hero-img.png" alt="" class="hero-img w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ============ header section end here ============-->
+
+
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
