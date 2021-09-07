@@ -97,6 +97,9 @@
     font-weight: 600;
     font-size: 16px;
 }
+.card-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
 
 /* card area end */
 
@@ -124,3 +127,25 @@
     font-size: 14px;
     font-weight: 600;
 }
+
+/* services area start */
+
+.section-title{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #5f687b;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+/* services area end */
+
+/* ============ portfolio section start here ============ */
+
+
+
+/* ============ portfolio section end here ============ */
